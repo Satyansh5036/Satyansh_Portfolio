@@ -4,8 +4,9 @@ export const PORTFOLIO_DATA = {
     header: {
         name: "Satyansh",
         tagline: "Project Management • Operations Leadership • Software Engineering",
+        quote: "Even as the spring arrives, when the world shines green, and everything turns warm, The small river never forgets the cold winter.",
         location: "Lucknow, IN / Remote",
-        deliveryTime: "10 mins",
+
         slaSubtext: "Ready to deploy on high-impact product & ops teams",
         email: "satyansh.g16@gmail.com",
         phone: "+91 8954471993",
@@ -65,7 +66,7 @@ export const PORTFOLIO_DATA = {
             companyOrScope: "Mediversal Healthcare",
             period: "Apr 2025 - May 2025",
             category: "Internship",
-            badge: "High Efficiency",
+            badge: "Efficient",
             impactMetric: "-25% Support Tickets",
             highlights: [
                 "Coordinated ERP rollout across 4 operational departments, managing timeline, scope, and alignment.",
@@ -89,42 +90,65 @@ export const PORTFOLIO_DATA = {
                 "Supported executive decision-making using structured demand and operations data reporting."
             ],
             tags: ["Operations Strategy", "Customer Research", "Vendor Management", "KPI Tracking"]
+        }, {
+            id: "exp-5",
+            title: "Product Intern",
+            role: "Product Intern",
+            companyOrScope: "ClickPost",
+            period: "Nov 2025 - Dec 2025",
+            category: "Internship",
+            badge: "",
+            impactMetric: "",
+            highlights: [
+                "Drafted PRDs and wireframes with engineering and design and defined success metrics for Control Tower, driving transparency for the clients on their post-purchase experience of the customers",
+                "Analysed courier performance / SLA breaches / RTO / NDR data using Databricks across different brands",
+                "Worked cross functionally with product, design, and business teams to improve workflow usability and operational efficiency"
+            ],
+            tags: ["Control Tower"]
         }
     ],
     caseStudies: [
         {
             id: "cs-1",
-            title: "Netflix: the metric fell, but nobody stopped watching",
-            category: "Streaming • Metrics & experimentation",
-            description: "A root-cause analysis of a 10% drop in Average View Duration in two weeks.",
+            title: "Amazon: From Market Leader to Global Dominator",
+            category: "Business • Strategy",
+            description: "Should the world’s largest streaming platform (by market share) accelerate investment to capture $400B+ in untapped market opportunities, or maintain current trajectory?",
             tags: ["Root-cause analysis", "Hypothesis elimination", "Prioritization scoring"],
-            pdfUrl: "/pdfs/netflix.pdf"
+            pdfUrl: "https://drive.google.com/file/d/1X-sr6idMOLLsJOObBhI-MKVT8acpSeG_/view?usp=sharing"
         },
         {
             id: "cs-2",
-            title: "Flipkart: the return that costs twice",
-            category: "E-commerce • Marketplace ops",
-            description: "A slow refund is annoying. A silent one is what actually breaks trust.",
-            tags: ["Root-cause framing", "Journey mapping", "Competitor analysis"],
-            pdfUrl: "/pdfs/flipkart.pdf"
+            title: "CRED: The Promise That Pays Later",
+            category: "Fintech • Engagenement • Funnel Diagnosis",
+            description: "A complex flow is frustrating. A zero-value first week is what actually drives churn.",
+            tags: [" Bottleneck analysis", "Journey mapping", "Experiment plan"],
+            pdfUrl: "https://drive.google.com/file/d/1Pyf5LvFMpTYNDU5Dy4ZnnQCMxRyYuiSp/view?usp=drive_link"
+        },
+        {
+            id: "cs-3",
+            title: "READ MORE",
+            category: "",
+            description: "",
+            tags: [""],
+            pdfUrl: "https://drive.google.com/drive/folders/15kRPZK8SnXc1rtcCnJBsx5xD-ghaCek9"
         }
     ],
     productTeardowns: [
         {
             id: "pt-1",
-            title: "Zepto: adding to an order that's already on its way",
-            category: "Quick commerce • Product design",
-            description: "A teardown of the moment you remember one more thing after checkout.",
-            tags: ["Journey mapping", "Operational constraint framing", "Tradeoff analysis"],
-            pdfUrl: "/pdfs/zepto.pdf"
+            title: "Applyo: The Gap Between Unified UX and Candidate Trust",
+            category: "Ed-Tech • Product design",
+            description: "Designing for the document you forgot after sending your MBA app",
+            tags: ["Journey mapping", "Constraint framing", "Tradeoff analysis"],
+            pdfUrl: "https://drive.google.com/file/d/1OGooRZaCm4fWVc8f7J3FN-h8NRQ1L2Ol/view?usp=sharing"
         },
         {
             id: "pt-2",
-            title: "WhatsApp: designing for the groups inside your groups",
-            category: "Messaging • Product design",
-            description: "How to grow connection on WhatsApp without turning it into a social network.",
+            title: "Lost in the Aisles: Teardown of the Picklist UX Problem",
+            category: "Q-Commerce • Product design",
+            description: "Unpacking route inefficiencies, pick errors, and the UX fixes needed for fast fulfillment.",
             tags: ["Persona design", "Needs mapping", "Prioritization"],
-            pdfUrl: "/pdfs/whatsapp.pdf"
+            pdfUrl: "https://drive.google.com/file/d/1nxL1PDLZPWsViVtCh2PTR-mUWxPpg-WW/view?usp=drive_link"
         }
     ],
     writings: [

@@ -54,10 +54,7 @@ export default function Home() {
                             SATYANSH <span className="text-blinkit-yellow font-bold text-xs bg-emerald-950 px-1.5 py-0.5 rounded">PM/OPS</span>
                         </div>
                         <div className="border-l border-amber-600/30 pl-3 hidden sm:block">
-                            <div className="flex items-center gap-1.5 font-bold text-slate-900 text-sm">
-                                <Clock className="w-4 h-4 text-blinkit-green-dark" />
-                                <span>Delivery in {PORTFOLIO_DATA.header.deliveryTime}</span>
-                            </div>
+
                             <div className="text-xs text-slate-800 font-medium flex items-center gap-1">
                                 <MapPin className="w-3 h-3 text-blinkit-green-dark" />
                                 {PORTFOLIO_DATA.header.location}
@@ -118,13 +115,16 @@ export default function Home() {
                     <div className="space-y-2 max-w-2xl">
                         <div className="inline-flex items-center gap-1.5 bg-blinkit-green-light text-blinkit-green-dark font-bold text-xs px-2.5 py-1 rounded-md border border-emerald-200">
                             <Sparkles className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
-                            Blinkit-Speed Execution Guaranteed
+                            Speedy Execution Guaranteed
                         </div>
                         <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">
                             {PORTFOLIO_DATA.header.name}
                         </h1>
                         <p className="text-slate-600 font-medium text-sm md:text-base leading-relaxed">
                             {PORTFOLIO_DATA.header.tagline}
+                        </p>
+                        <p className="text-pink-400 font-medium text-sm md:text-base leading-relaxed italic">
+                            "{PORTFOLIO_DATA.header.quote}"
                         </p>
                     </div>
 
@@ -149,7 +149,7 @@ export default function Home() {
                                 : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
                                 }`}
                         >
-                            {cat === 'All' ? '⚡ All Inventory' : cat}
+                            {cat === 'All' ? '⚡ OverView' : cat}
                         </button>
                     ))}
                 </section>
