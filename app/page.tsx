@@ -123,8 +123,8 @@ export default function Home() {
                         <p className="text-slate-600 font-medium text-sm md:text-base leading-relaxed">
                             {PORTFOLIO_DATA.header.tagline}
                         </p>
-                        <p className="text-pink-400 font-medium text-sm md:text-base leading-relaxed italic">
-                            "{PORTFOLIO_DATA.header.quote}"
+                        <p className="text-slate-600 font-medium text-sm md:text-base leading-relaxed font-color">
+                            {PORTFOLIO_DATA.header.quote}
                         </p>
                     </div>
 
@@ -280,6 +280,16 @@ export default function Home() {
                                     >
                                         Read the analysis <ExternalLink className="w-3.5 h-3.5" />
                                     </a>
+                                    {item.pdfUrlAudio && (
+                                        <a
+                                            href={item.pdfUrlAudio}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="w-full py-2 px-3 rounded-xl font-extrabold text-xs flex items-center justify-center gap-2 border border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100 transition"
+                                        >
+                                            Hear the analysis <ExternalLink className="w-3.5 h-3.5" />
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         ))}

@@ -1,6 +1,6 @@
-import { PortfolioData } from '@/types/portfolio'; // Assuming you have updated types to include these, or you can remove the strict typing if it complains
+import { PortfolioData } from '@/types/portfolio';
 
-export const PORTFOLIO_DATA = {
+export const PORTFOLIO_DATA: PortfolioData = {
     header: {
         name: "Satyansh",
         tagline: "Project Management • Operations Leadership • Software Engineering",
@@ -122,7 +122,8 @@ export const PORTFOLIO_DATA = {
             category: "Fintech • Engagenement • Funnel Diagnosis",
             description: "A complex flow is frustrating. A zero-value first week is what actually drives churn.",
             tags: [" Bottleneck analysis", "Journey mapping", "Experiment plan"],
-            pdfUrl: "https://drive.google.com/file/d/1Pyf5LvFMpTYNDU5Dy4ZnnQCMxRyYuiSp/view?usp=drive_link"
+            pdfUrl: "https://drive.google.com/file/d/1Pyf5LvFMpTYNDU5Dy4ZnnQCMxRyYuiSp/view?usp=drive_link",
+            pdfUrlAudio: "https://drive.google.com/file/d/1gYK0QQbW6AbdkxzcSrRhGdJVyKxlTV_N/view?usp=sharing"
         },
         {
             id: "cs-3",
