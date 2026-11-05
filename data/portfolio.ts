@@ -4,13 +4,12 @@ export const PORTFOLIO_DATA: PortfolioData = {
     header: {
         name: "Satyansh",
         tagline: "Project Management • Operations Leadership • Software Engineering",
-        quote: "Even as the spring arrives, when the world shines green, and everything turns warm, The small river never forgets the cold winter.",
+        quote: "Lifted onboarding completion by about 15% at Talentlo, trained 40+ staff through an ERP rollout, and built CareConnect from zero as an independent product builder.",
         location: "Lucknow, IN / Remote",
-
         slaSubtext: "Ready to deploy on high-impact product & ops teams",
         email: "satyansh.g16@gmail.com",
         phone: "+91 8954471993",
-        linkedin: "https://linkedin.com",
+        linkedin: "https://linkedin.com/in/satyansh-5036/",
         medium: "https://medium.com/@satyanshsrivastava-37413",
         github: "https://github.com",
     },
@@ -34,7 +33,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
             companyOrScope: "Independent",
             period: "Jan 2026 - Present",
             category: "Product",
-            badge: "Trending Launch",
+            badge: "Current",
             impactMetric: "3 Core Workstreams Delivered",
             highlights: [
                 "Owned full project lifecycle across 3 independent initiatives with no initial playbook or team.",
@@ -50,7 +49,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
             companyOrScope: "Talentlo",
             period: "Jun 2025 - Dec 2025",
             category: "Product",
-            badge: "Bestseller",
+            badge: "Shipped",
             impactMetric: "+15% Completion Rate",
             highlights: [
                 "Owned onboarding workflows end-to-end, tracking activation and completion metrics against timelines.",
@@ -66,7 +65,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
             companyOrScope: "Mediversal Healthcare",
             period: "Apr 2025 - May 2025",
             category: "Internship",
-            badge: "Efficient",
+            badge: "Rollout",
             impactMetric: "-25% Support Tickets",
             highlights: [
                 "Coordinated ERP rollout across 4 operational departments, managing timeline, scope, and alignment.",
@@ -82,7 +81,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
             companyOrScope: "Awadhesh RO Water Plant",
             period: "Jan 2022 - Apr 2024",
             category: "Operations",
-            badge: "Ops Turnaround",
+            badge: "Turnaround",
             impactMetric: "+20% Customer CSAT",
             highlights: [
                 "Led customer research initiative across 100+ users to translate service gaps into operational fixes.",
@@ -90,7 +89,8 @@ export const PORTFOLIO_DATA: PortfolioData = {
                 "Supported executive decision-making using structured demand and operations data reporting."
             ],
             tags: ["Operations Strategy", "Customer Research", "Vendor Management", "KPI Tracking"]
-        }, {
+        },
+        {
             id: "exp-5",
             title: "Product Intern",
             role: "Product Intern",
@@ -112,16 +112,16 @@ export const PORTFOLIO_DATA: PortfolioData = {
             id: "cs-1",
             title: "Amazon: From Market Leader to Global Dominator",
             category: "Business • Strategy",
-            description: "Should the world’s largest streaming platform (by market share) accelerate investment to capture $400B+ in untapped market opportunities, or maintain current trajectory?",
+            description: "Should Amazon accelerate investment to capture $400B+ in untapped market opportunities, or maintain its current trajectory?",
             tags: ["Root-cause analysis", "Hypothesis elimination", "Prioritization scoring"],
             pdfUrl: "https://drive.google.com/file/d/1X-sr6idMOLLsJOObBhI-MKVT8acpSeG_/view?usp=sharing"
         },
         {
             id: "cs-2",
             title: "CRED: The Promise That Pays Later",
-            category: "Fintech • Engagenement • Funnel Diagnosis",
+            category: "Fintech • Engagement • Funnel Diagnosis",
             description: "A complex flow is frustrating. A zero-value first week is what actually drives churn.",
-            tags: [" Bottleneck analysis", "Journey mapping", "Experiment plan"],
+            tags: ["Bottleneck analysis", "Journey mapping", "Experiment plan"],
             pdfUrl: "https://drive.google.com/file/d/1Pyf5LvFMpTYNDU5Dy4ZnnQCMxRyYuiSp/view?usp=drive_link",
             pdfUrlAudio: "https://drive.google.com/file/d/1gYK0QQbW6AbdkxzcSrRhGdJVyKxlTV_N/view?usp=sharing"
         },
@@ -130,7 +130,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
             title: "READ MORE",
             category: "",
             description: "",
-            tags: [""],
+            tags: [],
             pdfUrl: "https://drive.google.com/drive/folders/15kRPZK8SnXc1rtcCnJBsx5xD-ghaCek9"
         }
     ],
